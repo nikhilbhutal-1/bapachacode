@@ -13,6 +13,9 @@
 # def greet(name = "stranger"):
 #     return f"Hello, {name}"
 # print(greet())  
-student = [ 49, 47, 89, 95, 68]
-student.insert( 5 , 80 )
-print(student)  
+movies = []
+movies.(input(" enter first movie name:"))
+movies.append(input(" enter second movie name:"))
+movies.append(input(" enter third movie name:"))
+print(movies)
+print(type(movies))
