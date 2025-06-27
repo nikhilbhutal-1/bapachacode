@@ -13,9 +13,14 @@
 # def greet(name = "stranger"):
 #     return f"Hello, {name}"
 # print(greet())  
-movies = []
-movies.(input(" enter first movie name:"))
-movies.append(input(" enter second movie name:"))
-movies.append(input(" enter third movie name:"))
-print(movies)
-print(type(movies))
+list = []
+first_value =input("enter values:")
+second_value = input("enter values:")
+third_value = input("enter values:")
+list = [first_value,second_value,third_value]
+copy_list = list.copy()
+copy_list.reverse() 
+if list == copy_list:
+    print(" Palindrome ")  # Output: list is equal
+else:
+    print(" not palindrome")  # Output: list is not equal
