@@ -13,14 +13,6 @@
 # def greet(name = "stranger"):
 #     return f"Hello, {name}"
 # print(greet())  
-list = []
-first_value =input("enter values:")
-second_value = input("enter values:")
-third_value = input("enter values:")
-list = [first_value,second_value,third_value]
-copy_list = list.copy()
-copy_list.reverse() 
-if list == copy_list:
-    print(" Palindrome ")  # Output: list is equal
-else:
-    print(" not palindrome")  # Output: list is not equal
+tup1 = ( 5, 6, 8, 10, [7,8,10] 5, 10, 5)
+# tup1 [4] [1] = 99
+print( tup1 [4])
